@@ -1,2 +1,2 @@
-# picai_grand_challenge_train
+# PICAI Grand Challenge Training
 PICAI Grand challenge training model step
