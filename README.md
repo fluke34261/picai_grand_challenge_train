@@ -1,7 +1,19 @@
 # PICAI Grand Challenge Training
 PICAI Grand challenge training model step
 
+## Read all from baseline
+[baseline](https://github.com/DIAGNijmegen/picai_baseline)
+
+## Create folder
+```
+sudo -i
+mkdir /input
+mkdir /workdir
+mkdir /output
+```
+
 ## Clone baseline
+### can place any where
 ```
 git clone https://github.com/DIAGNijmegen/picai_baseline
 cd picai_baseline
