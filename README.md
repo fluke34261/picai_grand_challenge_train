@@ -50,5 +50,5 @@ python3 -m picai_baseline.splits.picai_nnunet --output "/workdir/splits/picai_nn
 
 
 ## Then choose Model
-[U-net](U-net)
-[nnU-net](nnU-net)
+- [U-net](U-net)
+- [nnU-net](nnU-net)
