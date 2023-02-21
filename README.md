@@ -47,3 +47,8 @@ git clone https://github.com/DIAGNijmegen/picai_labels /input/labels/
 ```
 python3 -m picai_baseline.splits.picai_nnunet --output "/workdir/splits/picai_nnunet"
 ```
+
+
+## Then choose Model
+[U-net](U-net)
+[nnU-net](nnU-net)
