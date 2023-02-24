@@ -50,5 +50,5 @@ python3 -m picai_prep mha2nnunet --input /input/images --annotations /input/labe
 ```
  
 ```
-nnUNet_plan_and_preprocess -t 2201 --verify_dataset_integrity
+nnUNet_plan_and_preprocess -t 2201 -pl3d ExperimentPlanner3D_v21
 ```
