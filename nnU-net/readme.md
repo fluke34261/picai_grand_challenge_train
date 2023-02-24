@@ -48,7 +48,18 @@ python3 -m picai_prep mha2nnunet_settings --structure picai_archive --input /inp
 ```
 python3 -m picai_prep mha2nnunet --input /input/images --annotations /input/labels/csPCa_lesion_delineations/human_expert/resampled --output /output/nnUNet_raw_data --json /workdir/mha2nnunet_settings.json
 ```
- 
+
+https://github.com/MIC-DKFZ/nnUNet#how-to-run-nnu-net-on-a-new-dataset
+train 0 is fold 0
+
+3D
 ```
 nnUNet_plan_and_preprocess -t 2201 -pl3d ExperimentPlanner3D_v21
+nnUNet_train 3d_fullres nnUNetTrainerV2 2201 0
+```
+
+2D
+```
+nnUNet_plan_and_preprocess -t 2201 -pl2d ExperimentPlanner2D_v21
+nnUNet_train 2d nnUNetTrainerV2 2201 0
 ```
